@@ -20,8 +20,12 @@
     display: flex;
 }
 .nav-item{
-    padding: 0 9px;
+    padding: 0.5em 9px;
     font-size: 15px;
+border-radius: 5px;
+}
+.nav-item:hover .nav-link{
+    color: #0839b0;
 }
 .nav-link{
     text-decoration: none;
